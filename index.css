@@ -1,0 +1,14 @@
+.message{
+  color: crimson;
+  margin-top: 20px;
+}
+.hidden{
+  display: none;
+}
+@media (max-width: 768px) {
+  /* 画面幅が768px以下のときに適用するスタイル */
+  body {
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+}
